@@ -10,7 +10,7 @@ In this repo, I have built an end-to-end ML pipeline where I ingest and clean Su
 
 ## Repo Structure  
 
-'''
+```
 survivor-predictions/
 │
 ├── README.md                 # Project overview, methodology, and findings
@@ -37,7 +37,7 @@ survivor-predictions/
 └── outputs/
     ├── figures/              # Saved plots (e.g., feature importance charts)
     ├── metrics/              # Saved model evaluation metrics
-'''
+```
 
 ## To Use Pipeline
 
