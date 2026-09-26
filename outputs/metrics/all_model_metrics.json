@@ -1,0 +1,47 @@
+[
+    {
+        "model_name": "Null Model (Mean Baseline)",
+        "mae": 0.25,
+        "rmse": 0.2882970094967452
+    },
+    {
+        "model_name": "Linear Regression",
+        "mae": 0.24750422172585473,
+        "rmse": 0.2939210777381902
+    },
+    {
+        "model_name": "Ridge Regression",
+        "mae": 0.2490136132607467,
+        "rmse": 0.28798447547541545
+    },
+    {
+        "model_name": "Random Forest Regressor",
+        "mae": 0.2538934103541703,
+        "rmse": 0.3025365371542006
+    },
+    {
+        "model_name": "XGBoost Regressor",
+        "mae": 0.2569719927247476,
+        "rmse": 0.3056514030323384
+    },
+    {
+        "model_name": "Null Model (Majority Class Baseline)",
+        "accuracy": 0.6041666666666666,
+        "roc_auc": 0.5
+    },
+    {
+        "model_name": "Logistic Regression",
+        "accuracy": 0.53125,
+        "roc_auc": 0.5022686025408348
+    },
+    {
+        "model_name": "Random Forest Classifier",
+        "accuracy": 0.5625,
+        "roc_auc": 0.52994555353902
+    },
+    {
+        "model_name": "XGBoost Classifier",
+        "accuracy": 0.6145833333333334,
+        "roc_auc": 0.5009074410163339
+    }
+]
