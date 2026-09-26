@@ -61,7 +61,6 @@ def main():
         all_metrics.append(metrics)
 
     # Save all collected metrics into a single JSON file
-    # UPDATE - in evaluate.py 
     os.makedirs("outputs/metrics", exist_ok=True)
     with open("outputs/metrics/all_model_metrics.json", "w") as f:
         json.dump(all_metrics, f, indent=4)

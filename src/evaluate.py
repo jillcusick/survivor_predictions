@@ -181,7 +181,7 @@ def evaluate_classification(pipeline, X_test, y_test, model_name="Model"):
     return preds, metrics
 
 
-# Example of how you can collect and save all metrics into one file
+# Collect and save all metrics into one file
 def save_eval_metrics(all_metrics_list):
     os.makedirs("outputs/metrics", exist_ok=True)
     with open("outputs/metrics/evaluation_metrics.json", "w") as f:
