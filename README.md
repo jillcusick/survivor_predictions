@@ -132,6 +132,8 @@ The logistic regression model aims to predict the likelihood that a given player
 #### Random Forest and XGBoost
 I once again use random forest and XGBoost to try to capture nonlinearity and interactive relationships that likely exist between the predictors and in their relationship to the binary outcome. 
  
+#### Results 
+
 The XGBoost model performs the best of these three classification models, with a modest accuracy of 61.5% compared to 60.4% accuracy choosing majority class for all. The logistic regression and random forest models both have accuracies worse than the majority class baseline, with 53% and 56% respectively. Relative age continues to have the most feature importance, followed closely by industry, new era, gender, bipoc, and region for the XGBoost model. 
 
 ### Takeaways 
